@@ -17,15 +17,16 @@ def media(numero1,numero2,numero3,numero4,numero5):
 
 def comparacao(numero1, numero2, numero3, numero4, numero5):
     maiores = []
-    if numero1 > media(numero1, numero2, numero3, numero4, numero5):
+    m = media(numero1, numero2, numero3, numero4, numero5)
+    if numero1 > m:
         maiores.append(numero1)
-    if numero2 > media(numero1, numero2, numero3, numero4, numero5):
+    if numero2 > m:
         maiores.append(numero2)
-    if numero3 > media(numero1, numero2, numero3, numero4, numero5):
+    if numero3 > m:
         maiores.append(numero3)
-    if numero4 > media(numero1, numero2, numero3, numero4, numero5):
+    if numero4 > m:
         maiores.append(numero4)
-    if numero5 > media(numero1, numero2, numero3, numero4, numero5):
+    if numero5 > m:
         maiores.append(numero5)
     print(f"Os números {maiores} são maiores que a média")
 
