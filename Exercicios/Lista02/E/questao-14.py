@@ -27,7 +27,7 @@ def comparacao(numero1, numero2, numero3, numero4, numero5):
         maiores.append(numero4)
     if numero5 > media(numero1, numero2, numero3, numero4, numero5):
         maiores.append(numero5)
-    print(f"Os números {maiores} são maiore que a média")
+    print(f"Os números {maiores} são maiores que a média")
 
 if __name__ == "__main__":
     main()
